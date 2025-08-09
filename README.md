@@ -115,9 +115,7 @@ Right Motor  →   OUT3, OUT4
 ##  Recommended Apps
 
 **Android:**
-- Serial Bluetooth Terminal
-- Bluetooth Electronics
-- Arduino Bluetooth Control
+[Arduino Bluetooth Controller](https://play.google.com/store/apps/details?id=com.giristudio.hc05.bluetooth.arduino.control)
 
 **iOS:**
 - LightBlue Explorer
