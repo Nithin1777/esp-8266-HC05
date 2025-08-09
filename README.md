@@ -33,7 +33,7 @@ A wireless robot car controlled via Bluetooth using ESP8266 microcontroller and 
 - Use a proper voltage regulator or dedicated power supply for reliable operation
 - Check your HC-05 module specifications before connecting
 
-## 🔌 Wiring Diagram
+##  Wiring Diagram
 
 ### ESP8266 to L298N Motor Driver
 ```
@@ -67,7 +67,7 @@ Left Motor   →   OUT1, OUT2
 Right Motor  →   OUT3, OUT4
 ```
 
-## 📱 Control Commands
+##  Control Commands
 
 | Command | Action |
 |---------|--------|
@@ -82,7 +82,7 @@ Right Motor  →   OUT3, OUT4
 | `O` | LED On |
 | `X` | LED Off |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Hardware Setup
 1. Assemble your robot car chassis with motors
@@ -112,7 +112,7 @@ Right Motor  →   OUT3, OUT4
 4. Install a Bluetooth terminal app (like "Serial Bluetooth Terminal")
 5. Connect to HC-05 and start sending commands!
 
-## 📲 Recommended Apps
+##  Recommended Apps
 
 **Android:**
 - Serial Bluetooth Terminal
@@ -123,7 +123,7 @@ Right Motor  →   OUT3, OUT4
 - LightBlue Explorer
 - Bluetooth Terminal
 
-## 🔧 Customization
+##  Customization
 
 ### Adjusting Speed Values
 Modify speed ranges in the code (ESP8266 uses 0-1023 for PWM):
@@ -143,7 +143,7 @@ case 'N': {  // New command
 }
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues:
 
@@ -165,11 +165,11 @@ case 'N': {  // New command
 ### Debug Mode:
 Disconnect HC-05 and use Serial Monitor (9600 baud) to test commands via USB.
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -177,14 +177,14 @@ This project is open source and available under the [MIT License](LICENSE).
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📧 Support
+##  Support
 
 If you encounter any issues or have questions:
 - Open an issue on GitHub
 - Check the troubleshooting section above
 - Verify your wiring matches the diagram exactly
 
-## ⭐ Show Your Support
+##  Show Your Support
 
 If this project helped you, please give it a ⭐ on GitHub!
 
