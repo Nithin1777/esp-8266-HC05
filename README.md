@@ -46,13 +46,12 @@ D5         →    IN4 (Right Motor)
 D6         →    ENB (Right Motor PWM)
 GND        →    GND
 ```
-
+### ENSURE COMMON GND BETWEEN HC-05 AND THE ESP-8266
 ### ESP8266 to HC-05 Bluetooth Module
 ```
 ESP8266    →    HC-05
 TX (GPIO1) →    RX
 RX (GPIO3) →    TX
-GND        →    GND
 ```
 
 ### HC-05 Power Connection
